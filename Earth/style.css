@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.space{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+}
+.earth{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    /* background-color: white; */
+    bottom: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: 0.7s;
+}
+.raw{
+    background: 
+    url(https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8zNF8zZF9zaW1wbGVfYmFzaWNfZnVsbF9tb29uX2N1dGVfaXNvbGF0ZWRfYmx1ZV9mNmJlZGY5ZC04NzRkLTQ1MWMtOWU1NC0yY2M0NTExMjNkMTEucG5n.png);
+    background-size: auto 100%;
+    width: 300px;
+    height: 300px;
+}
