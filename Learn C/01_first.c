@@ -1,7 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-    printf("hello world");
+    int b;
+    scanf("%d",&b);
+    printf("enter value of b is %d",b);
     return 0;
 }
