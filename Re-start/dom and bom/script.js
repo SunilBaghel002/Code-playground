@@ -23,3 +23,14 @@
 // para3.remove()
 // para4.remove()
 // para5.remove()
+
+const grand=document.querySelector(".grand-parent")
+// console.log(grand.children[0])
+grand.children[0].style.backgroundColor="red"
+
+const child=document.querySelector(".child3")
+child.parentElement.style.backgroundColor="green"
+child.closest(".grand-parent").style.padding=10+"px"
+child.closest(".grand-parent").style.backgroundColor="blue"
+child.nextElementSibling.style.backgroundColor="orange"
+child.previousElementSibling.style.backgroundColor="aqua"
