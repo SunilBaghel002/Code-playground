@@ -12,3 +12,12 @@ let obj={
     }
 }
 obj.b()
+
+// function 
+const obj2={
+    a:20,
+    x: ()=>{
+        console.log(this)
+    }
+}
+obj2.x()
